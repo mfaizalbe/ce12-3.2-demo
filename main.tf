@@ -21,7 +21,7 @@ terraform {
 
 resource "aws_s3_bucket" "s3_tf" {
   bucket_prefix = "terraform-faizal-" # Set your bucket name here
-  
+
   # checkov suppressions
   # checkov:skip=CKV_AWS_18
   # checkov:skip=CKV_AWS_144
